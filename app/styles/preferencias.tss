@@ -1,0 +1,31 @@
+
+"#winPref":{
+	title:"Preferências"
+	,layout:"vertical"
+}
+
+"#actionbar": {
+	displayHomeAsUp: true
+}
+
+"Label":{
+	top:10
+	,left:10
+	,width:Titanium.UI.FILL
+}
+
+"ListItem":{
+	color:"#000"
+}
+
+
+"#pkrUF":{
+	width:"90%"
+	,left:10
+}
+
+"#pkrCidade":{
+	width:"90%"
+	,left:10
+	//width:Titanium.UI.FILL
+}

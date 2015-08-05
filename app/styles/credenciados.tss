@@ -1,0 +1,83 @@
+"#credenciadosWindow":{
+	titleid:'Credenciados'
+	, orientation:"vertical"
+	, barColor:"#71BB9B"
+	, titleAttributes:{
+		color:"#FFF"
+	}
+}
+"#actionbar": {
+    //icon: "/actionicon.png",
+    logo:"images/ic_logo.png",
+    windowContentOverlay:false,
+    displayHomeAsUp: true,
+    //backgroundImage: "/actionbackground.png",
+}
+
+"#bairroVW":{
+	top:0
+	,height:60
+	,backgroundColor:"#CCC"//"#71BB9b"
+	//,borderColor:"#FFF" 
+	, tintColor:"#fff"
+}
+
+"srhBairro":{
+	showCancel:false
+}
+
+
+"TableView":{
+	top:60
+}
+
+".credenciadosTVR":{
+	//backgroundColor:"#FFF"
+	height:40,
+	,borderWidth:0
+	,borderColor:"#FFCC00"
+	,backgroundColor:"#FFF"
+	,tintColor:"#FFCC00"
+	,layout:'vertical'
+	,rightImage:"images/icon_seta.png"
+}
+
+
+".titleLabel":{
+	color:"#FF6600"
+	,width:Titanium.UI.SIZE
+	,left:5
+}
+".titleLabel[platform=android]":{
+	font:{
+		fontSize:15
+	}
+}
+".titleLabel[platform=ios]":{
+	top:10
+	,left:10
+	,font:{
+		fontSize:14
+	}
+}
+
+".titleSubLabel[platform=android]":{
+	color:"#009999"
+	,top:0
+	,left:5
+	,width:Titanium.UI.FILL
+	,layout:'vertical'
+	,font:{
+		fontSize:12
+	}
+}
+".titleSubLabel[platform=ios]":{
+	color:"#009999"
+	,top:0
+	,left:10
+	,width:Titanium.UI.FILL
+	,layout:'vertical'
+	,font:{
+		fontSize:12
+	}
+}

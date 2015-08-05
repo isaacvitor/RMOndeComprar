@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="credenciadosWindow">
+		<ActionBar id="actionbar" platform="android" title="Lojas"  onHomeIconItemSelected="closeWindow" homeButtonEnabled="true" />
+		<View id="bairroVW">
+			<SearchBar id="srhBairro" onChange="filtroBairro" hintText="Filtrar por bairro"></SearchBar>
+		</View>
+		<TableView id="credenciadoTV" dataCollection="CredenciadosFiltrados"  onClick="openCredenciadoDetail">
+			<TableViewRow id="row" class="credenciadosTVR" credenciado_id="{id}">
+				<Label id="nomeLabel" text="{fantasia}" class="titleLabel"></Label>
+				<Label id="nomeLabel" text="{bairro}" class="titleSubLabel"></Label>
+			</TableViewRow>
+		</TableView> 			
+	</Window>
+</Alloy>

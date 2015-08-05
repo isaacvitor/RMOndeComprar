@@ -1,0 +1,14 @@
+<Alloy>
+	
+	<TabGroup backgroundColor="white" >
+		<Menu platform="android" backgroundColor="white">
+			<MenuItem id="preferencias" title="Preferências" onClick="openPref">...</MenuItem>
+		</Menu>
+		<!--<RightNavButton platform="ios">
+			<Button id="btIosPref" >...</Button>
+	</RightNavButton> -->
+		<Require src="categorias"></Require>
+		<Require src="favoritos"></Require>
+		
+	</TabGroup> 
+</Alloy>

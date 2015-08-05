@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="credenciadoDetailWindow">
+		<ActionBar id="actionbarCredenciado" platform="android" title="Detalhes da Loja" 
+			onHomeIconItemSelected="closeWindow" homeButtonEnabled="true"  />
+		
+			
+			<Label class="credenciadoTitle" id="labFantasia"></Label> 			
+			<Label class="credenciadoSubTitle" id="labRazao"></Label> 
+			
+			<View id="vwEndereco">
+				<Label class="end">Endereço</Label> 	
+				<Label class="endDesc" id="labEndereco"></Label> 	
+				
+				<Label class="end">Bairro</Label> 	
+				<Label class="endDesc" id="labBairro"></Label> 
+				
+				<Label class="end">Complemento</Label> 	
+				<Label class="endDesc" id="labComplemento"></Label>	
+			</View>
+			<View id="vwTelefones">
+				<Label class="end">Telefones</Label>
+			</View>
+			<View id="vwButtons">
+				<Button id="btFavorito" onClick="doActionFavoritos" title="..." />
+				<Button id="btVerMapa" onClick="verMapa" title="Ver no mapa" />
+			</View>
+		
+	</Window>
+</Alloy>

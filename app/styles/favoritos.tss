@@ -1,0 +1,53 @@
+"TableView":{
+	top:0
+}
+
+"Tab":{
+	//titleid:'captured'
+	title:'Favoritos'
+	
+	, activeTitleColor:"#FFCC00"
+	,backgroundColor:"#efefef"
+	
+}
+
+".credenciadoTVR":{
+	//backgroundColor:"#FFF"
+	height:65,
+	,borderWidth:1
+	,borderColor:"#FFCC00"
+	,backgroundColor:"#FFF"
+	,tintColor:"#FFCC00"
+	,layout:'horizontal'
+}
+
+"Label":{
+	left:10	
+}
+
+"Label[platform=android]":{
+	font:{
+		fontFamily: 'opensans-light'
+	}
+}
+
+".credenciadosFantasia":{
+	color:"#FF6600"
+	,width:Titanium.UI.FILL
+	,borderWidth:0
+	,borderColor:"#FFCC00"
+	,top:5
+	,font:{
+		fontSize:20
+	}
+}
+
+".credenciadosBairro":{
+	color:"#009999"
+	,top:5
+	,width:Titanium.UI.FILL
+	,layout:'horizontal'
+	,font:{
+		fontSize:12
+	}
+}

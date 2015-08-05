@@ -1,0 +1,84 @@
+"#actionbarCredenciado": {
+	displayHomeAsUp: true
+}
+
+"#credenciadoDetailWindow":{
+	layout:"vertical"
+	, barColor:"#71BB9B"
+}
+
+"#vwEndereco":{
+	layout:"vertical",
+	height:140,
+	top:20
+}
+
+"#vwTelefones":{
+	layout:"vertical",
+	height:100,
+	top:10
+}
+
+"#vwButtons":{
+	layout:"horizontal",
+	height:100,
+	top:30
+}
+
+"#btFavorito":{
+	width:Titanium.UI.FILL
+}
+
+"#btVerMapa":{
+	width:Titanium.UI.FILL
+}
+
+"Label":{
+	width:Titanium.UI.SIZE,
+	left:10,
+	top:5
+}
+
+".credenciadoTitle":{
+	color:"#FF6600",
+	top:20,
+	font:{
+		fontSize:20,
+		fontWeight: 'bold'
+	}
+}
+
+".credenciadoSubTitle":{
+	color:"#347E5E",
+	font:{
+		fontSize:12,
+		fontWeight: 'bold'
+	}
+}
+
+".end":{
+	color:"#347E5E"
+}
+
+".endDesc":{
+	color:"#009999",
+	font:{
+		fontSize:12,
+		fontWeight: 'bold'
+	}
+}
+
+
+/*
+ <?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rm_grey">#AAA</color>
+    <color name="rm_bg">#FFF</color>
+    <color name="rm_blue">#009999</color>
+    <color name="rm_orange">#FF6600</color>
+    <color name="rm_light_green">#B0ECD2</color>
+    <color name="rm_green">#71BB9B</color>
+    <color name="rm_meddle_green">#4AA37D</color>
+    <color name="rm_dark_green">#347E5E</color>
+</resources>
+ */

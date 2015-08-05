@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="winPref"> 	
+		<ActionBar id="actionbar" platform="android" title="Preferências" 
+			onHomeIconItemSelected="closeWindow" homeButtonEnabled="true"  />
+			
+		<Label text="UF"></Label>
+		<Picker id="pkrUF"  selectionIndicator="true" useSpinner="false" onChange="setUF">
+			<PickerColumn id="pkrUFColumn" dataCollection="UFs" animatedCenter="false" selectedRow="2">
+				<PickerRow title="{uf}"></PickerRow>
+			</PickerColumn>
+		</Picker>
+		
+		<Label text="Cidade"></Label>
+		<Picker id="pkrCidade"  selectionIndicator="true" useSpinner="false"  onChange="setCidade">
+			<PickerColumn id="pkrCidadeColumn" dataCollection="Cidades" animatedCenter="false">
+				<PickerRow title="{cidade}"></PickerRow>
+			</PickerColumn>
+		</Picker>
+		
+	</Window>
+</Alloy> 

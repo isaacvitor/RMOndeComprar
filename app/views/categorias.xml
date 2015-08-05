@@ -1,0 +1,15 @@
+<Alloy>
+	<Tab id="categoriasTab">
+		<Window id="categoriaWindow">
+			<RightNavButton platform="ios">
+				<Button id="btIosPref" onClick="openPref">...</Button>
+			</RightNavButton> 
+			<TableView id="categoriaTableView" onClick="openListCredenciados" dataCollection="TiposCredenciados">
+				<TableViewRow id="row" codigo="{codigo}" class="categoriaTVR" leftImage="{ico}">
+					<Label class="titleLabel" text="{categoria}" ></Label>
+					<Label class="titleSubLabel" text="{subcategoria}"></Label>
+				</TableViewRow>
+			</TableView> 			
+		</Window>
+	</Tab>
+</Alloy>

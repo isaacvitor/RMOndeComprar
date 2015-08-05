@@ -1,0 +1,80 @@
+"Tab":{
+	//titleid:'captured'
+	title:'Categorias'
+	/*,barColor:"#FFCC00"
+	,backgroundSelectedColor:"#71BB9B"
+	,backgroundFocusedColor:"#71BB9B"
+	,activeTitleColor:"#71BB9B"
+	,backgroundColor:"#71BB9B"
+ */
+	
+}
+
+"#categoriaWindow":{
+	titleid:'Categorias'
+	, orientation:"vertical"
+	, barColor:"#71BB9B"
+	, titleAttributes:{
+		color:"#FFF"
+	}
+}
+
+"RightNavButton":{
+	statusBarStyle:Titanium.UI.iPhone.StatusBar.TRANSLUCENT_BLACK
+}
+
+"#preferencias[platform=ios]":{
+	//systemButton: Titanium.UI.iPhone.SystemButton.COMPOSE
+	//title:"Preferências"
+	image:"images/ico_4.png"
+	, disabledColor:"#FFCC00"
+	, style:Titanium.UI.iPhone.StatusBar.TRANSLUCENT_BLACK
+	, color:'#FFFFFF'
+}
+
+"TableView":{
+	top:1
+}
+
+".categoriaTVR":{
+	//backgroundColor:"#FFF"
+	height:60//Titanium.UI.SIZE
+	,borderWidth:0
+	,borderColor:"#FFCC00"
+	,backgroundColor:"#FFF"
+	,tintColor:"#FFCC00"
+	,layout:'vertical'
+	,rightImage:"images/icon_seta.png"
+}
+
+
+".titleLabel":{
+	color:"#FF6600"
+	,width:Titanium.UI.SIZE
+	,left:5
+}
+".titleLabel[platform=android]":{
+	font:{
+		fontSize:25
+	}
+}
+".titleLabel[platform=ios]":{
+	left:60
+	,font:{
+		fontSize:20
+	}
+}
+
+".titleSubLabel":{
+	color:"#009999"
+	,top:5
+	,left:5
+	,width:Titanium.UI.FILL
+	,layout:'vertical'
+	,font:{
+		fontSize:16
+	}
+}
+".titleSubLabel[platform=ios]":{
+	left:60
+}

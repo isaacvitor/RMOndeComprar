@@ -1,0 +1,12 @@
+<Alloy>
+	<Tab id="favoritosTab">
+		<Window id="favoritosWindow">
+			<TableView id="favoritosTableView" dataCollection="Favoritos" onClick="openCredenciadoDetail">
+				<TableViewRow id="row" class="credenciadoTVR" credenciado_id="{id}">
+					<Label id="labFantasia" text="{fantasia}" class="credenciadosFantasia"></Label>
+					<Label id="labBairro" text="{bairro}" class="credenciadosBairro"></Label>
+				</TableViewRow>
+			</TableView> <!--	-->		
+		</Window>
+	</Tab>
+</Alloy>

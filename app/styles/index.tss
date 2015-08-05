@@ -1,0 +1,8 @@
+'TabGroup':{
+	barColor:"#71BB9B" //bg da titulo
+	,tabsBackgroundColor:"#71BB9B" //bg da tab
+	, tabsTintColor:"#FFF" //Cor do texto da tab
+	,font:{
+		fontSize:25
+	}
+}

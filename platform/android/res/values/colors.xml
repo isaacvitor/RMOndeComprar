@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rm_grey">#AAA</color>
+    <color name="rm_bg">#FFF</color>
+    <color name="rm_blue">#009999</color>
+    <color name="rm_orange">#FF6600</color>
+    <color name="rm_light_green">#B0ECD2</color>
+    <color name="rm_green">#71BB9B</color>
+    <color name="rm_meddle_green">#4AA37D</color>
+    <color name="rm_dark_green">#347E5E</color>
+</resources>
